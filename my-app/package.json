@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "node-dev": "nodemon --watch src --ext ts --exec \"node --no-warnings --loader ts-node/esm src/classes/class.ts\""
+},
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

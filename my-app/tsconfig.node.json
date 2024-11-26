@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "moduleResolution": "Node",
+      "module": "CommonJS", // Use CommonJS for Node.js
+      "noEmit": false,     // Allow emitting code for debugging
+      "isolatedModules": false
+    }
+  }
+  
