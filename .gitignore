@@ -1,0 +1,24 @@
+# Rust
+rustapp/target/
+/Cargo.lock
+# TypeScript
+/node_modules/
+/dist/
+/build/
+/*.log
+*.tsbuildinfo
+
+# Go
+/bin/
+/pkg/
+/vendor/
+
+# General
+*.DS_Store
+*.log
+*.swp
+*.tmp
+*.bak
+.idea/
+.vscode/
+.env
