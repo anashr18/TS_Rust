@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "node-dev": "nodemon --watch src --ext ts --exec \"node --no-warnings --loader ts-node/esm src/classes/class.ts\""
+    "node-dev": "nodemon --watch src --ext ts --exec \"node --no-warnings --loader ts-node/esm\""
 },
   "devDependencies": {
     "ts-node": "^10.9.2",
