@@ -9,6 +9,22 @@ path = "src/bin/classes/class.rs"
 
 [[bin]]
 name = "llist"
-path = "src/bin/linklist/linklist.rs"
+path = "src/bin/linklist/linklist1.rs"
+[[bin]]
+name = "llist2"
+path = "src/bin/linklist/linklist2.rs"
+
+[[bin]]
+name = "generic"
+path = "src/bin/generics/generic.rs"
+[[bin]]
+name = "generic1"
+path = "src/bin/generics/generic1.rs"
+[[bin]]
+name = "tobj"
+path = "src/bin/generics/traitobjects.rs"
+[[bin]]
+name = "pattern"
+path = "src/bin/generics/pattern.rs"
 
 [dependencies]

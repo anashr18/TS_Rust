@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "node-dev": "nodemon --watch src --ext ts --exec \"node --no-warnings --loader ts-node/esm\""
-},
+  },
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "~5.6.2",
