@@ -1,6 +1,59 @@
 # Rust
 rustapp/target/
 /Cargo.lock
+# Target directory (contains compiled output)
+target/
+
+# Rust package manager lock file (can be included if using exact versions)
+Cargo.lock
+
+# Build artifacts
+debug/
+release/
+
+# Rust-specific directories
+*.rs.bk
+
+# Rust Documentation output
+doc/
+
+# Backup files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Dependencies (for vendored dependencies)
+.cargo/
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux-specific files
+*~
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+
+# Profiling data
+*.profdata
+
+# Cargo workspaces
+**/target/
+
 # TypeScript
 /node_modules/
 /dist/
